@@ -1,3 +1,29 @@
 body {
 
+    font-family:sans-serif;
+}
+
+h1 {
+}
+
+.basic-info {
+    text-align: right;
+    margin: 5px;
+}
+
+.title {
+    text-align: center;
+
+}
+
+.top-section {
+    margin: 5px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+#tagline {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
 }
