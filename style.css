@@ -2,7 +2,7 @@ body {
 
     font-family: 'Roboto Condensed', sans-serif;
     margin: auto;
-    background-color: rgb(66, 179, 244);
+    background-color: rgb(0, 165, 159);
     color:antiquewhite;
     max-width: 900px;
 }
@@ -10,13 +10,24 @@ body {
 h1 {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 0;
+    margin-top: 4px;
+    font-size: 46px;
+    text-shadow: 0px 2px 10px rgba(0,0,0,.3);
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
+    text-shadow: 0px 2px 6px rgba(0,0,0,.4);
+    margin-bottom: 6px;
+    margin-top: 24px;
+}
+
+ul {
+    margin-top: 2px;
 }
 
 h3 {
+    margin-top: 14px;
     margin-bottom: 0;
 }
 
@@ -25,7 +36,13 @@ a {
 }
 
 .job {
-    padding-left: 20;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+.job-title {
+    margin-top: 4px;
 }
 
 .contact-info {
@@ -49,8 +66,13 @@ a {
 }
 
 .top-section {
-    margin: 5px;
-    padding: 20px;
+    border: 1.5px;
+    border-radius: 36px;
+    border-color: antiquewhite;
+    border-style:dashed;
+    margin: 16px;
+    margin-top: 24px;
+    padding: 30px;
 }
 
 #subtitle {
