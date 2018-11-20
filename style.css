@@ -36,9 +36,12 @@ a {
 }
 
 .job {
-    padding-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     margin-top: 0px;
     padding-left: 20px;
+    background-color:  rgb(10, 175, 169);
+    border-radius: 12px;
 }
 
 .job-title {
@@ -73,6 +76,18 @@ a {
     margin: 16px;
     margin-top: 24px;
     padding: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+.edu-name {
+    width: 250px;
+}
+
+.edu-period {
+    width:150px;
 }
 
 #subtitle {
